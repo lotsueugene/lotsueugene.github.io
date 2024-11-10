@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    background-color: #F2AD94;
+}
+.about{
+    margin: 0px;
+    background-color: #be8d7b;
+}
+.contact{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    color: crimson;
+}
+.intro{
+    color: rgb(105, 102, 102);
+}
+
+.p-interest{
+    color: rgb(150, 100, 7);
+}
+.h-blue{
+    color: blue;
+}
+.interests{
+    color: white;
+}
+.h-red{
+    color: red;
+}
+.homecolor{
+    color: #e33512;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(87, 87, 87);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(54, 54, 54)
+}
+.navbar li{
+    float: left;
+}
+
+.input-yellow{
+    background-color: hsl(60, 53%, 64%);
+    border: 2px solid #4caf50;
+    
+}
+.input-green{
+    background-color: #4caf50;
+    border: white;
+
+}
+::placeholder{
+    color: azure;
+}
+.input-blue{
+background-color: blue;
+border: white;
+}
+.input-red{
+    background-color: #e33512;
+    border: white;
+}
+
+.label-red{
+    color: red;
+}
+.label-blue{
+    color: blue;
+}
+
+.label-color{
+    color: rgb(209, 27, 170);
+}
