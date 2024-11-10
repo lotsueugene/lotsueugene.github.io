@@ -92,9 +92,3 @@ border: white;
 .label-color{
     color: rgb(209, 27, 170);
 }
-img{
-    width: 100px;
-    border-radius: 50px;
-    float: left;
-    margin-right: 10px;
-}
