@@ -28,6 +28,8 @@ color: white;
 .image-class {
     border: 5px solid burlywood; 
     border-radius: 10px; 
+    width: 100%;
+    height: auto;
 }
 
 .text-class{
