@@ -1,0 +1,49 @@
+#body-class{
+    background-color: bisque;
+}
+.header-class{
+    background-color: brown;
+    color: blue;
+}
+.nav-class{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.nav-link-class{
+color: white;
+}
+.nav-class a:hover{
+    background-color: hwb(0 34% 65%);
+}
+.footer-class{
+    background-color: whitesmoke;
+    color: black;
+}
+.form-class{
+    background-color: thistle;
+}
+.button-class{
+    background-color: green;
+}
+.image-class {
+    border: 5px solid burlywood; 
+    border-radius: 10px; 
+}
+
+.text-class{
+    color: black;
+}
+.title-class{
+    color: rgb(8, 52, 110);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-title-class{
+    color: brown;
+}
+.faq-question-class{
+    color: tomato;
+}
+.cite-class{
+    font-style: italic;
+    color: brown;
+}
