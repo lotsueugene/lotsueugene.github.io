@@ -407,3 +407,56 @@ footer {
 .error-message p {
   font-size: 16px;
 }
+
+
+
+
+/* Mobile-Friendly Layout for Navbar */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .navbar a {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .logo {
+    width: 150px; /* Resize logo on mobile */
+    height: auto;
+  }
+
+  /* Stacking the circles vertically */
+  .color-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .color-nav ul li {
+    margin: 10px 0;
+  }
+}
+
+/* Mobile-Optimized Images */
+img.section-image, img.social-icon {
+  max-width: 100%;
+  height: auto;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer {
+  padding: 10px 20px;
+  text-align: center;
+}
+
