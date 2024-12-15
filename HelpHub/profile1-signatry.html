@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpHub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Circle Nav-->
+    <nav class="color-nav">
+      <ul>
+        <li><a href="index.html" class="circle red"></a></li>
+        <li><a href="charities.html" class="circle white"></a></li>
+        <li><a href="about.html" class="circle violet"></a></li>
+      </ul>
+    </nav>
+    <!--Main Nav-->
+    <nav class="navbar">
+      <ul>
+        <li>
+          <img
+            src="logo-removebg-preview.png"
+            alt="HelpHub Logo"
+            class="logo"
+            style="cursor: pointer"
+            onclick="window.location.href='index.html';"
+          />
+        </li>
+        <li><a href="about.html" class="profile-color">About</a></li>
+        <li><a href="search_charity.html" class="look-up">LookUp</a></li>
+        <li><a href="charities.html" class="charity-color">Charities</a></li>
+        <li><a href="index.html" class="home-color">Home</a></li>
+      </ul>
+    </nav>
+    <!--Body-->
+    <main>
+      <h1>The Signatry</h1>
+      <br />
+      <p class="profile-sig">
+        Established in 2000, The Signatry is a ministry and donor advised fund
+        sponsor that seeks to inspire and facilitate revolutionary biblical
+        generosity across generations. For too long, the practice of generosity
+        has centered on dollar amounts. We believe generosity is a lifestyle. As
+        Christians, we start with faith and values, transform them into a
+        lifestyle, and build the foundation for what matters: enduring families
+        and eternal impact. Through donor advised funds and other innovative
+        tools, we empower families to live generously, modeling biblical values
+        for future generations and making a greater impact on the causes that
+        align with their passions and advance the kingdom of God.
+      </p>
+      <!--More Profile-->
+      <section class="profile-text-section">
+        <div class="image-text">
+          <a href="charities.html"
+            ><img
+              src="charities-sig.jpg"
+              alt="Charities"
+              class="section-image"
+              id="charityLogo1"
+          /></a>
+
+          <div class="profile-content">
+            <h2>Our History: A Growing Vision for Generous Lives</h2>
+            <p>
+              The Signatry traces its start back to 2000, to the launch of the
+              Christian Community Foundation of Kansas City, a small donor
+              advised fund sponsor seeking to connect God’s resources with God’s
+              workers in the Kansas City area. Our community of donors grew and
+              helped to support ministries throughout the central region of the
+              country. What started with a small group of donors in Kansas City
+              developed, by God’s grace, into a vision to foster revolutionary,
+              biblical generosity on a much bigger scale.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Volunteer Now Button -->
+      <div class="profile-button">
+        <button id="volunteerBtn">Volunteer Now</button>
+      </div>
+
+
+    </main>
+
+    <footer>
+      <p>&copy; 2024 HelpHub. All rights reserved.</p>
+      <div class="social-media-icons">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="icons8-facebook.svg" alt="Facebook" class="social-icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="icons8-twitterx.svg" alt="Twitter" class="social-icon" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="icons8-instagram.svg" alt="Instagram" class="social-icon" />
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <img src="icons8-linkedin.svg" alt="LinkedIn" class="social-icon" />
+        </a>
+      </div>
+    </footer>
+
+    <!-- Link to charity_profile.js -->
+    <script src="charity_profile.js"></script>
+  </body>
+</html>

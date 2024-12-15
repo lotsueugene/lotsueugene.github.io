@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpHub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Circle Nav-->
+    <nav class="color-nav">
+      <ul>
+        <li><a href="index.html" class="circle red"></a></li>
+        <li><a href="charities.html" class="circle white"></a></li>
+        <li><a href="about.html" class="circle violet"></a></li>
+      </ul>
+    </nav>
+    <!--Main Nav-->
+    <nav class="navbar">
+      <ul>
+        <li>
+          <img
+            src="logo-removebg-preview.png"
+            alt="HelpHub Logo"
+            class="logo"
+            style="cursor: pointer"
+            onclick="window.location.href='index.html';"
+          />
+        </li>
+        <li><a href="about.html" class="profile-color">About</a></li>
+        <li><a href="search_charity.html" class="look-up">LookUp</a></li>
+        <li><a href="charities.html" class="charity-color">Charities</a></li>
+        <li><a href="index.html" class="home-color">Home</a></li>
+      </ul>
+    </nav>
+    <!--Body-->
+    <main>
+      <h1>Charities</h1>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for a charity..."
+        />
+      </div>
+      <div class="charity-list" id="charityList">
+        <!-- Charity 1 -->
+        <div class="charity-item">
+          <img src="charities-sig.jpg" alt="The Signatry" />
+          <h3>The Signatry</h3>
+          <p>Inspiring and facilitating revolutionary biblical generosity.</p>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <button onclick="window.location.href='profile1-signatry.html'">
+            View Profile
+          </button>
+        </div>
+        <!-- Charity 2 -->
+        <div class="charity-item">
+          <img src="charities-mercy.png" alt="Children's Mercy Hospital" />
+          <h3>Children's Mercy Hospital</h3>
+          <p>
+            Children's Mercy is a leading independent children's health <br />
+            organization dedicated to holistic care, translational research,
+            <br />
+            breakthrough innovation, and educating the next generation of
+            caregivers. <br />
+            Together, we transform the health, well-being and potential of
+            children, <br />
+            with unwavering compassion for those most vulnerable.
+          </p>
+          <br />
+          <button onclick="window.location.href='profile2-mercy.html'">
+            View Profile
+          </button>
+        </div>
+        <!-- Charity 3 -->
+        <div class="charity-item">
+          <img src="charities-mal.png" alt="Against Malaria Foundation (US)" />
+          <h3>Against Malaria Foundation (US)</h3>
+          <p>
+            We fund and provide long-lasting insecticidal nets (LLINs) to
+            protect those at risk from malaria.
+          </p>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <button onclick="window.location.href='profile3-mal.html'">
+            View Profile
+          </button>
+        </div>
+        <!--Charity 4-->
+        <div class="charity-item">
+          <img src="charities-chil.png" alt="Children International" />
+          <h3>Children International</h3>
+          <p>
+            At Children International, we connect people around the world in the
+            fight to end poverty. Working together, we invest in the lives of
+            children and youth, build the healthy environments they need to
+            thrive, and empower them to create lasting change in their lives and
+            communities.
+          </p>
+          <br /><br /><br /><br /><br />
+          <button onclick="window.location.href='profile4-chil.html'">
+            View Profile
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 HelpHub. All rights reserved.</p>
+      <div class="social-media-icons">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="icons8-facebook.svg" alt="Facebook" class="social-icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="icons8-twitterx.svg" alt="Twitter" class="social-icon" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="icons8-instagram.svg" alt="Instagram" class="social-icon" />
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <img src="icons8-linkedin.svg" alt="LinkedIn" class="social-icon" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

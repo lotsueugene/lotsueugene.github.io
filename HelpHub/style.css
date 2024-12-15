@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Home page*/
+body{
+    min-height: 100vh;
+    background-image: url(close-up-person-holding-tomatoes-with-copy-space.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.color-nav {
+    background-color: rgba(24, 22, 22, 0.473);
+    padding: 3px;
+  }
+  
+  .color-nav ul {
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+    display: flex;  
+    justify-content: flex-start;  
+  }
+  
+  .color-nav ul li {
+    margin: 0 10px;  
+  }
+  .circle {
+    display: block;  
+    width: 15px;     
+    height: 15px;    
+    border-radius: 50%;  
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;  }
+  
+  /* Color-specific classes for the circles */
+  .circle.red {
+    background-color: #ce2b0e;  
+  }
+  
+  .circle.white {
+    background-color:white;  
+  }
+  
+  .circle.violet {
+    background-color: palevioletred;  
+  }
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(24, 22, 22, 0.473);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+}
+.home-color{
+    color: rgb(255, 0, 0);  
+
+}
+.look-up{
+  color: #6c757d;
+}
+.charity-color{
+    color: white;
+}
+.profile-color{
+    color: palevioletred;
+}
+.homecolor{
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+h1{
+    color: white; 
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(44, 44, 44)
+}
+.navbar li{
+    height:100;
+    float: right;
+}
+.navbar li:first-child{
+    float: left;
+}
+
+
+.image-text-section {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 48%;
+}
+
+.section-image {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.text-content h2 {
+    color: rgb(190, 111, 46);
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    color: lightgray;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(24, 22, 22, 0.473);
+    color: white;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+
+.social-media-icons {
+    margin-top: 10px;
+}
+
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    transition: transform 0.3s ease;  
+}
+
+.social-icon:hover {
+    transform: scale(1.2);  
+}
+
+
+/* Charity List */
+.charity-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 20px;
+    justify-items: center;
+  }
+  
+  .charity-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .charity-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .charity-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .charity-item p {
+    margin-top: 10px;
+  }
+  
+  .charity-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .charity-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /*Profiles*/
+  .profile-sig {
+    
+    margin: 40px;
+    color: white;
+  }
+
+  .profile-text-section {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.profile-text-section img{
+    width: 350px;
+    height: 350px;
+}
+
+.profile-content h2 {
+    align-items: flex-end;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.profile-content p {
+    color: rgb(255, 255, 255);
+}
+
+.profile-button{
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(103, 115, 226);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-top: 15px;
+  }
+
+ 
+  
+  .profile-button button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  /*About*/
+  .head{
+    text-align: center;
+    color: rgb(190, 111, 46);
+  }
+.values li{
+   
+    text-align: left;
+    color: white;
+  
+}
+.values {
+    margin: 50px;
+}
+
+
+/* Search Container */
+.search-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+#charity-details {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Individual Organization Card Styling */
+.organization-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.organization-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Organization Name */
+.org-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2d3e50;
+  margin-bottom: 10px;
+}
+
+/* Mission Statement */
+.org-mission {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+/* Location (City, State) */
+.org-city-state {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Address */
+.org-address,
+.org-zip,
+.org-revenue,
+.org-tax-period {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Styling for revenue numbers */
+.org-revenue {
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Tax Period */
+.org-tax-period {
+  color: #007bff;
+  font-weight: bold;
+}
+
+
+/* Error Message Styling */
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.error-message p {
+  font-size: 16px;
+}
